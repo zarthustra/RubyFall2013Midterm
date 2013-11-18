@@ -1,0 +1,36 @@
+ Questions (20pts):
+ - What are the three uses of the curly brackets {} in Ruby?
+
+ 1) For defining the data that goes into a hash.
+ 2) For the insertion of ruby code into strings.
+ 3) For grouping and enclosing blocks.
+
+ - What is a regular expression and what is a common use for them? 
+
+A regular expression is a sequence of characters that allows you to isolate specific strings within a data set. In the lecture, we saw a regular expression that was used to verify a credit card number, but they were also used to search for telephone numbers (perhaps of a specific area code).
+
+ - What is the difference between how a String, a symbol, a FixNum, and a Float are stored in Ruby?
+
+A string is a mutable, text-based piece of data that can be modified, and therefore can be more of a memory concern if you are repeatedly referencing it. A symbol is immutable; it will never have its value changed, and therefore, only has to be saved once. FixNums are identical to symbols in terms of how they're stored, and floats are identical to strings. 
+
+ - Are these two statements equivalent? Why or Why Not?
+   1. x, y = "hello", "hello"
+   2. x = y = "hello"
+
+   They are not. In the first example, there are two objects which x and y reference, and they are both "hello". In the second example, both x and y refer to the same object.
+
+- What is the difference between a Range and an Array?
+
+An array is a collection of data that is composed of specific objects, while a range is a set of information with a beginning and end that can be navigated by the range.
+
+- Why would I use a Hash instead of an Array?
+
+If you wanted to store objects that are strings or have specific intentions for a given object.
+
+- What is your favorite thing about Ruby so far?
+
+Seems to be fairly manageable and understandable.
+
+- What is your least favorite thing about Ruby so far?
+
+I think it's too early yet to have specific things that I dislike. I need to understand more about how things are put together, and how I can use the language pragmatically, before I'll be able to say there are things I dislike.
